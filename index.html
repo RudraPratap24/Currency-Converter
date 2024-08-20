@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrows-exchange-alt.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                <h2>Currency Convertor</h2>
+            <fieldset>
+                <legend>Enter Amount:</legend>
+                <div class = "amt">
+                    <input type="text" id="amt">
+                </div>
+            </fieldset>
+            <div class="selector">
+                <div class="selector_from">
+                    <p>from:</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from" id="from">
+                            
+                            
+                        </select>
+                    </div>
+                </div>
+                    <i class="gg-arrows-exchange-alt"></i>
+                <div class="selector_to">
+                    <p>to:</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to" id="to">
+                                   
+                        </select>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="msg">
+                1USD = 80INR
+            </div>
+
+            <button class="btn">Get Exchange Rate</button>
+
+        
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="codes.js"></script>
+</body>
+</html>
